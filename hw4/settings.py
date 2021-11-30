@@ -123,10 +123,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATICFILES_DIRS = [
-    BASE_DIR / "static",
-    '/var/www/static/',
-]
+
 
 STATIC_ROOT = "/var/www/example.com/static/"
 # Default primary key field type
